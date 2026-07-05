@@ -1,0 +1,77 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    color: white ;
+}
+
+.container{
+    /* background: linear-gradient(); */
+     background: linear-gradient(#b10202, rgb(0, 0, 0));
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+}
+.content{
+    text-align: center;
+    background:linear-gradient(#f80101, rgb(32, 17, 17));
+    padding: 2rem;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+}
+
+.logo{
+    width: 200px;
+    object-fit: contain;
+}
+
+h1{
+    color: rgb(173, 173, 173);
+    margin-bottom: 20px;
+}
+
+
+p{
+
+    color:rgb(199, 236, 253);
+    margin-bottom: 20px;
+    opacity: 0.7;
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column ;
+    position: relative;
+}
+
+input[type="email"]{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    /* background: linear-gradient(rgb(110, 0, 0),rgb(202, 0, 0));
+     */
+     background-color: #b10202;
+    letter-spacing: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.9s ease-in-out;
+    box-shadow: 0 41px 6px rgb(0, 0, 0,0.1);
+}
+
+button:hover{
+    background: linear-gradient(rgb(94, 8, 8),rgb(65, 19, 19));
+}
